@@ -1,0 +1,38 @@
+.MainInputContainer{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.MainInputField{
+    width:80%;
+    height: 3.5em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0.5em;
+}
+.MainInputBtn{
+    height: 3.5em;
+    width: 3.5em;
+    background-color:#4ab421;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.MainVoiceBtn{
+    height: 3.5em;
+    width: 3.5em;
+    background-color:#00000000;
+    border: none;
+    border-radius: 10px;
+    color: #4ab421;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+@media screen and (max-width:700px){
+
+}

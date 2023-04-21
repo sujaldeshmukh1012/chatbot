@@ -1,0 +1,57 @@
+
+.MainContainerHeader{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right top, #1e1e1e, #1f1f1f, #212021, #222222, #232324, #242425, #262627, #272728, #282829, #29292b, #2b2b2c, #2c2c2e);
+}
+.MainHeaderLogoSection{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 60%;
+    height: 100%;
+}
+.MainHeaderLogo{
+    width:auto;
+    object-fit: contain;
+    height: 20%;
+    min-height: 2em;
+    margin-left:1em;
+    min-width: 2em;
+}
+.MainHeaderTitle{
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    font-size: 12px;
+}
+.MainHeaderOptionsSection{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding-right: 1em;
+}
+.MainHeaderOptionsBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+}
+.MainLanguageSelect select{
+    margin-left: 1em;
+    margin-right: 0.5em;
+    background-color: transparent;
+    color: #fff;
+    padding:0.5em 1em;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 80%;
+    font-variant: small-caps;
+}
